@@ -1,0 +1,37 @@
+// testimonials section
+
+.testimonials {
+    background: $lightgray;
+    padding: 60px 0 0;
+
+    &_slider {
+        margin-bottom: 0;
+        padding-bottom: 120px;
+    }
+}
+
+// media queries
+
+@media screen and (min-width: 767.98px) {
+    .testimonials {
+        padding: 100px 0 0;
+
+        &_slider {
+            padding-bottom: 140px;
+        }
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .testimonials {
+        padding: 120px 0 0;
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .testimonials {
+        &_slider {
+            padding-bottom: 120px;
+        }
+    }
+}
